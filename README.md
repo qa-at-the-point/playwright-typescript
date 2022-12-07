@@ -26,3 +26,11 @@ This project uses [bun](https://bun.sh) to do all bundling, transpiling, packagi
     ```bash
     bun test tests/palindrome.spec.ts
     ```
+
+4. Run Playwright UI tests
+
+    ```bash
+    bun pwtest tests/example.spec.ts
+    ```
+
+    - If using Gitpod, open `Port 6080` to see any tests running with a _headed_ browser. Tests are "headless" by default
