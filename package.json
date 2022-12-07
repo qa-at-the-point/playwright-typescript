@@ -1,12 +1,13 @@
 {
   "name": "playwright-typescript",
   "version": "1.0.0",
-  "description": "## Setup",
+  "description": "Demo project showing Playwright and TypeScript for Test Automation",
   "main": "index.ts",
 
   "scripts": {
     "test": "bun wiptest",
-    "pwtest": "bun run npx playwright test",
+    "pw": "npx playwright",
+    "pwtest": "npx playwright test",
     "pwshow": "bun run playwright show-report",
     "playwright:deps": "sudo npx playwright install-deps",
     "playwright:browsers": "npx playwright install chromium firefox webkit"
