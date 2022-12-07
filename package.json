@@ -1,0 +1,31 @@
+{
+  "name": "playwright-typescript",
+  "version": "1.0.0",
+  "description": "## Setup",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun wiptest",
+    "pwtest": "bun run npx playwright test",
+    "pwshow": "bun run playwright show-report",
+    "playwright:browsers": "npx playwright install chromium firefox webkit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qa-at-the-point/playwright-typescript.git"
+  },
+  "author": "Carlos Kidman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qa-at-the-point/playwright-typescript/issues"
+  },
+  "homepage": "https://github.com/qa-at-the-point/playwright-typescript#readme",
+  "devDependencies": {
+    "bun-types": "^0.3.0"
+  },
+  "dependencies": {
+    "@playwright/test": "latest",
+    "playwright": "^1.28.1",
+    "playwright-core": "^1.28.1"
+  }
+}
