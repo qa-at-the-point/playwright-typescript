@@ -4,14 +4,14 @@ import { ProductsPage } from './pages/products';
 
 
 export class Pages {
-    _page: Page
-    _login: LoginPage
-    _products: ProductsPage
-    
+    private readonly _page: Page
+    private _login: LoginPage
+    private _products: ProductsPage
+
     constructor(page: Page) {
         this._page = page
     }
-    
+
     login() {
         this._login = this._login ?? new LoginPage(this._page)
         return this._login

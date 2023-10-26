@@ -25,6 +25,7 @@
     "bun-types": "^0.3.0"
   },
   "dependencies": {
+    "@axe-core/playwright": "^4.8.1",
     "@playwright/test": "latest",
     "playwright": "^1.28.1",
     "playwright-core": "^1.28.1"

@@ -1,6 +1,7 @@
 # User Added
 
 playwright-report
+test-results
 bun.lockb
 
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore

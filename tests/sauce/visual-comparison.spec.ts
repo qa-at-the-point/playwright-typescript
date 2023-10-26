@@ -1,5 +1,5 @@
 import { test } from "../../sauce/fixtures"
-import { expect, type Page } from '@playwright/test';
+import { expect } from '@playwright/test';
 
 
 test.beforeEach(async ({ pages }) => {
@@ -9,5 +9,4 @@ test.beforeEach(async ({ pages }) => {
 test('incorrect product images', async ({ page, pages }) => {
     await pages.login().with('standard_user', 'secret_sauce')
     await expect(page).toHaveScreenshot()
-    await pages.login().logout()
 })

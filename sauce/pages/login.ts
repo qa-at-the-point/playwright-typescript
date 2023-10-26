@@ -2,10 +2,10 @@ import { Locator, type Page } from '@playwright/test';
 
 
 export class LoginPage {
-    readonly _page: Page
+    private readonly _page: Page
 
     constructor(page: Page) {
-       this._page = page
+        this._page = page
     }
 
     async goto(): Promise<LoginPage> {
