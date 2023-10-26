@@ -19,6 +19,11 @@ export class LoginPage {
         await this._page.locator('#login-button').click()
     }
 
+    async logout(): Promise<void> {
+        await this._page.locator('#react-burger-menu-btn').click()
+        await this._page.locator('#logout_sidebar_link').click()
+    }
+
     error(): Locator {
         return this._page.locator('[data-test=error]')
     }

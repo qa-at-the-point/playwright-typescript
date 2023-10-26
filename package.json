@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Demo project showing Playwright and TypeScript for Test Automation",
   "main": "index.ts",
-
   "scripts": {
     "test": "bun wiptest",
     "pw": "npx playwright",
